@@ -35,7 +35,8 @@ optional arguments:
   -r RECORD_ID, --record_id RECORD_ID
                         set the recode id to dump the record
   -d, --dump_objects    dump a small number of objects accessible to guest
-                        users and saves them in the file.
+                        users and saves them in the file and downloads all files
+                        returned when checking ContentDocument.
   -f, --full            if set with -d, dump all pages of objects.
   -s, --skip            if set with -d, skip the objects already dumped.
 ```
