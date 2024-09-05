@@ -1,11 +1,10 @@
-# PoC for Salesforce lightning
-***Academic purposes Only***. 
+# Salesforce Lightning Auditor
+Forked from poc_salesforce_lightning by moniik
 
+Additions:
++ Auto download of files accessible to guests
 
 This tool dumps the data of Salesforce object through Aura lightning endpoint with the guest privilege.
-
-
-雑なコードだけど許してくれい
 
 
 # Requirement
