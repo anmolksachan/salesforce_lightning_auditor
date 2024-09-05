@@ -1,11 +1,10 @@
-# PoC for Salesforce lightning
-***Academic purposes Only***. 
+# Salesforce Lightning Auditor
+Forked from poc_salesforce_lightning by moniik
 
+Additions:
++ Auto download of files accessible to guests
 
 This tool dumps the data of Salesforce object through Aura lightning endpoint with the guest privilege.
-
-
-雑なコードだけど許してくれい
 
 
 # Requirement
@@ -36,7 +35,8 @@ optional arguments:
   -r RECORD_ID, --record_id RECORD_ID
                         set the recode id to dump the record
   -d, --dump_objects    dump a small number of objects accessible to guest
-                        users and saves them in the file.
+                        users and saves them in the file and downloads all files
+                        returned when checking ContentDocument.
   -f, --full            if set with -d, dump all pages of objects.
   -s, --skip            if set with -d, skip the objects already dumped.
 ```
